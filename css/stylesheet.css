@@ -141,20 +141,17 @@ a:visited {
 }
 
 #selectorwrap a {
-  text-decoration : none;
-  background-color: beige;
-  color           : rgb(0,0,0);
-  display         : inline-block;
-  text-align      : center;
-  padding-left    : 60px;
-  padding-right   : 60px;
-  text-decoration : none;
+  text-decoration: none;
+  color          : rgb(0,0,0);
+  display        : inline-block;
+  text-align     : center;
+  padding-left   : 60px;
+  padding-right  : 60px;
+  text-decoration: none;
   /*text-shadow: 2px 2px #DCDCDC;*/
 }
 
 #selectorwrap a:hover {
-  animation      : 0s cubic-bezier(.26,1.08,.19,1) dropborder;
-  border-bottom  : 5px solid red;
   text-decoration: underline;
   text-shadow    : 0 0 #DCDCDC;
 }
@@ -190,13 +187,4 @@ a:visited {
 
 #soundcloudplayer {
   padding-top: 20px;
-}
-@keyframes dropborder {
-  0% {
-    border-bottom: 0 solid red;
-  }
-
-  100% {
-    border-bottom: 5px solid red;
-  }
 }
