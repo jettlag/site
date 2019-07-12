@@ -33,16 +33,24 @@ h1 {
   top: 350px;
   height: 60px;
   text-align: center;
-  padding-top: 0px;
-  transform: perspective(1px) translateY(-50%);
-  animation: 0.2s ease-out 0s 1 h1;
 }
 
-@keyframes h1 {
+.slide-top {
+	-webkit-animation: slide-top 2.5s cubic-bezier(0.190, 1.000, 0.220, 1.000) ;
+	        animation: slide-top 2.5s cubic-bezier(0.190, 1.000, 0.220, 1.000) ;
+}
+
+
+
+@keyframes slide-top {
   0% {
-  padding-top: 20px;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+            opacity: 0;
   }
   100% {
-  padding-top: 0px;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+            opacity: 100;
   }
 }
