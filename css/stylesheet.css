@@ -77,6 +77,12 @@ h2 {
 
 a {
   text-decoration: none;
+  /* Unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
 }
 
 .sitetitle {
@@ -94,6 +100,12 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  /* Unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
 }
 
 li {
