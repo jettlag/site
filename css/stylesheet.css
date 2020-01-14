@@ -25,7 +25,6 @@ body {
   left      : 0;
   width     : 100%;
   height    : 100px;
-  |;
 }
 
 html {
@@ -36,21 +35,57 @@ html {
   margin-top      : 0;
   height          : 100%;
   width           : 100%;
-  background-color: #74b9ff;
+  font-family     : futura-pt, sans-serif;
+  font-weight     : 700;
+  font-style      : normal;
+  background-color: #F2E7DA;
 }
 
 h1 {
-  font-family  : 'Rubik Mono One', sans-serif;
-  font-size    : 2em;
+  font-size    : 1.2em;
+  text-align   : center;
+  padding-left : 22px;
+  padding-right: 22px;
+  font-family  : futura-pt, sans-serif;
+  font-weight  : 600;
+  font-style   : normal;
+}
+
+h2 {
+  font-size    : 1em;
   text-align   : center;
   padding-left : 22px;
   padding-right: 22px;
 }
 
-h2 {
-  font-family  : 'Rubik Mono One', sans-serif;
-  font-size    : 1.5em;
-  text-align   : center;
-  padding-left : 22px;
-  padding-right: 22px;
+a {
+  text-decoration: none;
 }
+
+.sitetitle {
+  color: #6598AC;
+}
+
+.navbar {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin         : 0;
+  padding        : 0;
+  overflow       : hidden;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color          : #6598AC;
+  text-align     : center;
+  padding        : 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {}
