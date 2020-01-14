@@ -47,46 +47,10 @@ h1 {
   padding-right: 22px;
 }
 
-h1 a {
-  color          : #ffe799;
-  text-decoration: none;
-  text-align     : center;
-  letter-spacing : 0;
-}
-
-.onstart {
-  -webkit-animation: text-pop-up-top 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
-  animation        : text-pop-up-top 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
-}
-@keyframes text-pop-up-top {
-  0% {
-    letter-spacing          : -0.25em;
-    font-size               : 0.2em;
-    -webkit-transform       : translateY(0);
-    transform               : translateY(0);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin        : 50% 50%;
-    text-shadow             : none;
-  }
-
-  100% {
-    -webkit-transform       : translateY(-50px);
-    transform               : translateY(-50px);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin        : 50% 50%;
-    text-shadow             : 0 1px 0 #fdcb6e, 0 2px 0 #fdcb6e, 0 3px 0 #fdcb6e, 0 4px 0 #fdcb6e, 0 5px 0 #fdcb6e, 0 6px 0 #fdcb6e, 0 30px 30px rgba(0, 0, 0, 0.2);
-  }
-}
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(30px);
-    transform        : translateY(30px);
-    opacity          : 0;
-  }
-
-  100% {
-    -webkit-transform: translateY(0px);
-    transform        : translateY(0px);
-    opacity          : 100;
-  }
+h2 {
+  font-family  : 'Rubik Mono One', sans-serif;
+  font-size    : 1.5em;
+  text-align   : center;
+  padding-left : 22px;
+  padding-right: 22px;
 }
