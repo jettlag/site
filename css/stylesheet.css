@@ -75,6 +75,17 @@ h2 {
   text-align: center;
 }
 
+.margin1 {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
+  color: #63594D;
+}
+
 a {
   text-decoration: none;
   /* Unselectable */
