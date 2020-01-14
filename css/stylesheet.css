@@ -42,13 +42,18 @@ html {
 }
 
 h1 {
-  font-size    : 1.2em;
-  text-align   : center;
-  padding-left : 22px;
-  padding-right: 22px;
-  font-family  : futura-pt, sans-serif;
-  font-weight  : 600;
-  font-style   : normal;
+  font-size          : 1.25em;
+  text-align         : center;
+  padding-left       : 22px;
+  padding-right      : 22px;
+  font-family        : futura-pt, sans-serif;
+  font-weight        : 600;
+  font-style         : normal;
+  /* Unselectable */
+  -webkit-user-select: none;
+  -moz-user-select   : none;
+  -ms-user-select    : none;
+  user-select        : none;
 }
 
 h2 {
@@ -67,10 +72,12 @@ a {
 }
 
 .navbar {
+  margin-top     : 40px;
   text-decoration: none;
 }
 
 ul {
+  font-size      : 1em;
   list-style-type: none;
   margin         : 0;
   padding        : 0;
@@ -84,7 +91,7 @@ li {
 li a {
   color          : #6598AC;
   text-align     : center;
-  padding        : 14px 16px;
+  padding        : 10px;
   text-decoration: none;
 }
 /* Change the link color to #111 (black) on hover */
