@@ -28,7 +28,7 @@
 
 body {
   position: relative;
-  top: 160px;
+  top: 100px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -145,6 +145,17 @@ li a:hover {
   display: inline-block;
   width: 288px;
   text-align: center;
+}
+
+.feed a {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.feed a:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+  text-
 }
 
 .pic {
