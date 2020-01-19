@@ -161,15 +161,17 @@ li a:hover {
 
 .feed {
   margin: 0 auto;
+  margin-top: 15px;
   display: grid;
   text-align: center;
-  width: 38%;
-  grid-template-columns: auto auto;
+  width: 500px;
+  grid-template-columns: 50% 50%;
 }
 
 .feed picture {
   display: inline-grid;
-  padding: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .feed a {
@@ -184,6 +186,14 @@ li a:hover {
 
 .pic {
   width: 100%;
+  margin-top: 10px;
+  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.singlepic {
+  width: 320px;
   margin-top: 25px;
   -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
@@ -192,5 +202,7 @@ li a:hover {
 
 .desc {
   font-size: 1.2em;
-  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+  background-color: inherit;
 }
