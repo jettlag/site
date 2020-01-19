@@ -181,48 +181,59 @@ li a:hover {
 
 .feed a {
   opacity: 1;
-  transition: 0.2s;
 }
 
+/*
 .feed a:hover {
   opacity: 0.5;
   transition: 0.4s;
 }
 
+*/
 .pic {
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
-  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s cubic-bezier(0, .63, .1, 1);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.pic:hover {
+  width: 90%;
+  margin-top: 10px;
   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
 }
 
 .singlepic {
   width: 320px;
   margin-top: 25px;
-  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
 }
 
 .desc {
   font-size: 1.2em;
   margin-bottom: 0px;
-  margin-top: -10px;
+  margin-top: 0px;
   background-color: inherit;
+}
+
+.scbutton {
+  border-bottom: 0px solid black;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  transition: 0.1s;
 }
 
 .scbutton a {
   padding: 10px;
   border-bottom: 0px solid black;
-  text-align: center;
   background-color: #ffbf80;
   color: black;
   text-decoration: none;
   transition: 0.1s;
 }
 
-a:hover {
+.scbutton :hover {
   transition: 0.1s;
   border-bottom: 3px solid black;
 }
