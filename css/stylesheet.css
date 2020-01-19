@@ -37,6 +37,12 @@ body {
   height: 100vh;
   margin: auto;
   text-align: center;
+  /* Unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
 }
 
 html {
@@ -84,6 +90,7 @@ p {
   font-weight: 400;
   font-style: normal;
   color: black;
+  text-transform: lowercase;
 }
 
 a {
@@ -122,12 +129,6 @@ ul {
   padding: 0;
   width: 400px;
   list-style-type: none;
-  /* Unselectable */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  text-align: center;
 }
 
 li {
@@ -171,5 +172,8 @@ li a:hover {
 
 .pic {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 30px;
+  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
 }
