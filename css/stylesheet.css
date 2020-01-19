@@ -160,9 +160,16 @@ li a:hover {
 }
 
 .feed {
-  display: inline-block;
-  width: 288px;
+  margin: 0 auto;
+  display: grid;
   text-align: center;
+  width: 38%;
+  grid-template-columns: auto auto;
+}
+
+.feed picture {
+  display: inline-grid;
+  padding: 20px;
 }
 
 .feed a {
@@ -181,4 +188,9 @@ li a:hover {
   -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.desc {
+  font-size: 1.2em;
+  margin-top: 0px;
 }
