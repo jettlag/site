@@ -82,7 +82,7 @@ h2 {
 }
 
 .margin1 {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 p {
@@ -93,10 +93,6 @@ p {
   padding: 15px;
   text-transform: lowercase;
   background-color: white;
-  border: 1px solid #000000;
-  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 a {
@@ -117,12 +113,8 @@ a {
   margin: auto;
   width: 360px;
   padding: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   background-color: white;
-  border: 1px solid #000000;
-  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .sitetitle h1 {
@@ -186,8 +178,7 @@ li a:hover {
 .pic {
   width: 100%;
   margin-top: 25px;
-  border: 0px solid #000000;
-  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
 }
