@@ -169,8 +169,8 @@ li a:hover {
   margin-top: 15px;
   display: grid;
   text-align: center;
-  width: 200px;
-  grid-template-columns: 100%;
+  width: 500px;
+  grid-template-columns: 50% 50%;
 }
 
 .feed picture {
