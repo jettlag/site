@@ -49,7 +49,7 @@ html {
   margin-top: 0;
   padding: 0;
   letter-spacing: 0;
-  background-color: #f2e7da;
+  background-color: white;
   scroll-behavior: smooth;
 }
 
@@ -58,8 +58,8 @@ h1 {
   font-size: 1.25em;
   font-weight: 600;
   font-style: normal;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding: 22px;
+  text-transform: uppercase;
   /* Unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -83,7 +83,7 @@ p {
   font-size: 1em;
   font-weight: 400;
   font-style: normal;
-  color: #63594D;
+  color: black;
 }
 
 a {
@@ -97,7 +97,16 @@ a {
 }
 
 .sitetitle {
-  color: #6598ac;
+  color: black;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.sitetitle h1 {
+  display: inline;
 }
 
 .navbar {
@@ -106,10 +115,12 @@ a {
 }
 
 ul {
-  font-size: 1em;
+  display: inline;
+  font-size: 0.9em;
   overflow: hidden;
   margin: 0;
   padding: 0;
+  width: 400px;
   list-style-type: none;
   /* Unselectable */
   -webkit-user-select: none;
@@ -127,18 +138,18 @@ li a {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  color: #6598ac;
+  color: black;
   transition: 0.4s;
 }
 
 li a:hover {
   transition: 0.4s;
-  color: #89b7c9;
+  color: #3B8686;
 }
 
 /* Change the link color to #111 (black) on hover */
 .active {
-  color: #446573;
+  color: #3B8686;
 }
 
 .feed {
