@@ -260,3 +260,30 @@ filter: brightness(0) invert(1);
 .links img:hover {
   transition: 1s cubic-bezier(0, .63, .1, 1);
 }
+
+.linkspage {
+  position: relative;
+  text-align: center;
+  bottom: 0%;
+  width: 100%;
+}
+
+.linkspage a {}
+
+.linkspage img {
+  /*
+filter: brightness(0) invert(1);
+*/
+  width: 25px;
+  padding: 10px;
+  margin: 10px;
+  transition: 1s cubic-bezier(0, .63, .1, 1);
+}
+
+.linkspage img:hover {
+  transition: 1s cubic-bezier(0, .63, .1, 1);
+}
+
+.piccap {
+  margin: -20px;
+}

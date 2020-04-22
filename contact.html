@@ -13,7 +13,21 @@
 
   <link rel="stylesheet" href="https://use.typekit.net/eqt7dde.css">
 
-  <link href="css/stylesheet.css" rel="stylesheet">
+  <link href="css/desktop.css" rel="stylesheet">
+  <link href="css/mobile.css" rel="stylesheet">
+  <link href="css/tablet.css" rel="stylesheet">
+
+  <!-- Media query for narrow browser width -->
+  <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+  <!-- Media query for medium browser width -->
+  <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+  <!-- Media query for full browser width -->
+  <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+  <!-- Prevent smartphones from scaling pages down -->
+  <meta name="viewport" content="initial-scale=1">
 
   <title>dretty pope</title>
 </head>
@@ -26,10 +40,9 @@
     </h1>
 
     <ul class=" navbar ">
-      <li><a class="active" href="https://www.drettypope.com">work</a></li>
-      <li><a href="links">links</a></li>
-      <li><a href="contact">contact</a></li>
-      <li><a href="about">about</a></li>
+      <li><a class="active" href="index.html">work</a></li>
+      <li><a href="links.html">links</a></li>
+      <li><a href="about.html">about/contact</a></li>
     </ul>
 
   </div>

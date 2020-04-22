@@ -13,7 +13,21 @@
 
   <link rel="stylesheet" href="https://use.typekit.net/eqt7dde.css">
 
-  <link href="css/stylesheet.css" rel="stylesheet">
+  <link href="css/desktop.css" rel="stylesheet">
+  <link href="css/mobile.css" rel="stylesheet">
+  <link href="css/tablet.css" rel="stylesheet">
+
+  <!-- Media query for narrow browser width -->
+  <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+  <!-- Media query for medium browser width -->
+  <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+  <!-- Media query for full browser width -->
+  <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+  <!-- Prevent smartphones from scaling pages down -->
+  <meta name="viewport" content="initial-scale=1">
 
   <title>dretty pope</title>
 </head>
@@ -28,9 +42,9 @@
     </h1>
 
     <ul class=" navbar ">
-      <li><a class="active" href="https://www.drettypope.com">work</a></li>
-      <li><a class="active" href="links">links</a></li>
-      <li><a href="about">about/contact</a></li>
+      <li><a href="index.html">work</a></li>
+      <li><a class="active" href="#">links</a></li>
+      <li><a href="about.html">about/contact</a></li>
     </ul>
 
   </div>
@@ -39,28 +53,32 @@
   <div class="topgap"></div>
   <div class="topgap"></div>
 
-  <div class="links">
+  <div class="linkspage">
     <picture>
       <a href="https://www.soundcloud.com/drettypope" target=”_blank”>
         <img src="images/soundcloud.png" alt="soundcloud">
       </a>
+      <p class="piccap">soundcloud</p>
     </picture>
 
     <picture>
       <a href="https://open.spotify.com/artist/1jfVGikjPLicd1L2Qy4DjB?si=d-zDzl5JRHOt2knCgQwSNA" target=”_blank”>
         <img src="images/spotify.png" alt="spotify">
+        <p class="piccap">spotify</p>
       </a>
     </picture>
 
     <picture>
       <a href="https://www.instagram.com/drettypope" target=”_blank”>
         <img src="images/instagram.png" alt="instagram">
+        <p class="piccap">instagram</p>
       </a>
     </picture>
 
     <picture>
       <a href="https://www.twitter.com/drettypope" target=”_blank”>
         <img src="images/twitter.png" alt="twitter">
+        <p class="piccap">twitter</p>
       </a>
     </picture>
 
