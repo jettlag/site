@@ -1,0 +1,266 @@
+/*colours
+#CFF09E
+#A8DBA8
+#79BD9A
+#3B8686
+#0B486B
+*/
+/*colours
+#55efc4
+#ffe799
+#45969b
+#ffe180
+#dfe6e9
+*/
+/*https://colorhunt.co/palette/148495
+*/
+.element::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.element {
+  overflow: -moz-scrollbars-none;
+}
+
+.element {
+  -ms-overflow-style: none;
+}
+
+body {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  /* Unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+}
+
+.topgap {
+  height: 40px;
+  position: relative;
+}
+
+html {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 0;
+  padding: 0;
+  letter-spacing: 0;
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: futura-pt, sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  font-style: normal;
+  padding: 22px;
+  text-transform: uppercase;
+  /* Unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+  padding-right: 22px;
+  padding-left: 22px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.margin1 {
+  margin-top: 15px;
+  width: 600px;
+  margin: auto;
+  width: 50%;
+  display: none;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding: 15px;
+  text-transform: lowercase;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  /* Unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+}
+
+.sitetitle {
+  color: black;
+  width: 500px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  width: 360px;
+  padding: 15px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+.sitetitle h1 {
+  display: inline;
+  margin-left: -15px;
+}
+
+.navbar {
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+ul {
+  display: inline;
+  font-size: 0.9em;
+  overflow: hidden;
+  margin-left: -10px;
+  padding: 0;
+  width: 400px;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+}
+
+li a:hover {
+  transition: 0.4s;
+  color: #3B8686;
+}
+
+/* Change the link color to #111 (black) on hover */
+.active {
+  color: #3B8686;
+}
+
+.feed {
+  margin: 0 auto;
+  margin-top: 15px;
+  display: grid;
+  text-align: center;
+  width: 720px;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.feed picture {
+  display: inline-grid;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.feed a {
+  opacity: 1;
+}
+
+/*
+.feed a:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+*/
+.pic {
+  width: 90%;
+  margin-top: 10px;
+  transition: box-shadow 0.2s cubic-bezier(0, .63, .1, 1);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.pic:hover {
+  width: 90%;
+  margin-top: 10px;
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.singlepic {
+  width: 320px;
+  margin-top: 25px;
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.desc {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: inherit;
+}
+
+.scbutton {
+  border-bottom: 0px solid black;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.scbutton a {
+  padding: 10px;
+  border-bottom: 0px solid black;
+  background-color: #ffbf80;
+  color: black;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.scbutton :hover {
+  transition: 0.1s;
+  border-bottom: 3px solid black;
+}
+
+.links {
+  position: fixed;
+  text-align: center;
+  bottom: 0%;
+  width: 100%;
+}
+
+.links a {}
+
+.links img {
+  /*
+filter: brightness(0) invert(1);
+*/
+  width: 25px;
+  padding: 10px;
+  margin: 10px;
+  transition: 1s cubic-bezier(0, .63, .1, 1);
+}
+
+.links img:hover {
+  transition: 1s cubic-bezier(0, .63, .1, 1);
+}
