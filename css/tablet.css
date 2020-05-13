@@ -1,0 +1,10 @@
+@media only screen and (max-width: 960px) {
+  .feed {
+    margin: 0 auto;
+    margin-top: 15px;
+    display: grid;
+    text-align: center;
+    width: 200px;
+    grid-template-columns: 100%;
+  }
+}
