@@ -3,8 +3,16 @@
 
 <head>
 
-  <script src="jquery.easing.compatibility.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("button").click(function() {
+        $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+      });
+    });
+  </script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,9 +36,9 @@
     </h1>
 
     <ul class=" navbar ">
-      <li><a href="https://www.drettypope.com">work</a></li>
-      <li><a href="links">links</a></li>
-      <li><a class="active" href="about">about/contact</a></li>
+      <li><a href="index.html">work</a></li>
+      <li><a href="links.html">links</a></li>
+      <li><a class="active" href="about.html">about/contact</a></li>
     </ul>
   </div>
 
@@ -39,9 +47,30 @@
     <img class="singlepic" src="images/profileabout.jpg" alt="me">
   </picture>
 
+  <div class="topgap"></div>
+
+
+  <button>learn more about dretty pope</button>
+
+  <div id="div1" style="margin-top:15px;width:600px;margin:auto;width:50%;display:none;">
+    <p>
+      A Hong Kong-born electronic, pop, and hip-hop artist, producer, Christian Lee became known in 2018 with a breakout flume remix that quickly built him an audience that stayed for the personality and mind behind Dretty Pope. His signature sound
+      of
+      emotion-based production and clever interpolation and engineering created an evocative sound that would lead to affiliation with large electronic distributors on Soundcloud and YouTube, and the eventual founding of his own electronic and
+      hip-hop
+      collective, a hub of producers and artists that have remained active and put out hundreds of songs collectively. Lee now attends New York University, pursuing a degree in Film and Television at Tisch School of the Arts while remaining
+      ultra-focused on all of his passions, frequently collaborating with artists in the Clive Davis Institute of Recorded Music.
+    </p>
+
+  </div><br>
+
   <p class="margin1">
-    im christian.
+    A Hong Kong-born electronic, pop, and hip-hop artist, producer, Christian Lee became known in 2018 with a breakout flume remix that quickly built him an audience that stayed for the personality and mind behind Dretty Pope. His signature sound of
+    emotion-based production and clever interpolation and engineering created an evocative sound that would lead to affiliation with large electronic distributors on Soundcloud and YouTube, and the eventual founding of his own electronic and hip-hop
+    collective, a hub of producers and artists that have remained active and put out hundreds of songs collectively. Lee now attends New York University, pursuing a degree in Film and Television at Tisch School of the Arts while remaining
+    ultra-focused on all of his passions, frequently collaborating with artists in the Clive Davis Institute of Recorded Music.
   </p>
+
 
   <div class="topgap"></div>
   <div class="topgap"></div>
@@ -73,7 +102,7 @@
     </picture>
 
   </div>
-
 </body>
+
 
 </html>

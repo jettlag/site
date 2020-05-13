@@ -88,6 +88,10 @@ h2 {
 
 .margin1 {
   margin-top: 15px;
+  width: 600px;
+  margin: auto;
+  width: 50%;
+  display: none;
 }
 
 p {
